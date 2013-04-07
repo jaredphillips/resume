@@ -1,0 +1,43 @@
+body {
+	background-color: #F0FFFF;
+	font: black;
+	text-align: center;
+}
+
+header {
+	background-color: black;
+	height: 11px;
+	border-width: 100px;
+	top: -2px;
+}
+
+img {
+	padding-top: 12px;
+   -moz-border-radius: 30px;
+   -webkit-border-radius: 30px;
+   border-radius: 30px;
+   width: 170px;
+   height: 170px;
+}
+
+h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 85px;
+}
+
+h2 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 34px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Tauri', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
