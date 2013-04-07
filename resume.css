@@ -1,42 +1,63 @@
 body {
-	background-color: #F0FFFF;
+	background-color: snow;
 	font: black;
 	text-align: center;
+	padding-top: -2px;
 }
 
-header {
-	background-color: black;
-	height: 11px;
-	border-width: 100px;
-	top: -2px;
-}
 
 img {
-	padding-top: 12px;
-   -moz-border-radius: 30px;
-   -webkit-border-radius: 30px;
-   border-radius: 30px;
    width: 170px;
    height: 170px;
+   float: center;
+   padding-top: 4px;
+   border-radius: 110px;
+}
+
+.line {
+	width: 60%;
+	background-color: grey;
+	height: 0.7px;
+	float: center;
 }
 
 h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 85px;
+	font-size: 45px;
+	float: center;
+	padding-bottom: 0px;
 }
 
 h2 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 34px;
+	font-size: 28px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Tauri', sans-serif;
 }
 
 a {
 	text-decoration: none;
+}
+
+#leftcolumn {
+	padding-top: 2%;
+	padding-left: 15%;
+	float: left;
+	width: 30%;
+}
+
+#rightcolumn {
+	padding-top: 2%;
+	padding-right: 15%;
+	float: right;
+	width: 30%;
+}
+
+#bitmaker {
+	color: saddlebrown;
 }
 
 
