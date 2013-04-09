@@ -1,5 +1,8 @@
+
+
 body {
   margin: 0px;
+  background: lightblue;
 }
 
 header {
@@ -15,7 +18,7 @@ h1 {
 	padding-top: 1.9%;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 50px;
-	padding-bottom: 1%;
+	padding-bottom: 0px;
     color: saddlebrown;
 }
 
@@ -26,5 +29,18 @@ h1 {
 	width: 140px;
 	height: 140px;
 	border-radius: 110px;
+
+
 }
+
+#subtitle {
+	color: saddlebrown;
+	font-size: 20px;
+	font-family: 'Gabriela', serif;
+	width: 100%;
+	text-align: center;
+	padding-top: 14px;
+	font-style: italic;
+}
+
 
