@@ -2,12 +2,12 @@
 
 body {
   margin: 0px;
-  background: lightblue;
+  background: #FDEDD0;
 }
 
 header {
   height: 8px;
-  background: black;
+  background: #BCF1ED;
   border: 1px solid #CCC;
   position: fixed;
   width: 100%
@@ -15,31 +15,30 @@ header {
 
 h1 {
 	text-align: center;
-	padding-top: 1.9%;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 50px;
-	padding-bottom: 0px;
-    color: saddlebrown;
+	font-size: 70px;
+    color: #FF634D;
+    padding-top: 24px;
+    padding-bottom: -1px;
 }
 
 #me {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 140px;
-	height: 140px;
-	border-radius: 110px;
-
-
+	width: 190px;
+	height: 190px;
+	border-radius: 150px;
+	padding-bottom: 10px;
 }
 
 #subtitle {
-	color: saddlebrown;
+	color: #FF634D;
 	font-size: 20px;
 	font-family: 'Gabriela', serif;
 	width: 100%;
 	text-align: center;
-	padding-top: 14px;
+	padding-top: 20px;
 	font-style: italic;
 }
 
