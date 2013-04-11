@@ -2,7 +2,6 @@
 
 body {
   margin: 0px;
-  background: #FDEDD0;
 }
 
 header {
@@ -16,30 +15,56 @@ header {
 h1 {
 	text-align: center;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 70px;
-    color: #FF634D;
-    padding-top: 24px;
-    padding-bottom: -1px;
+	font-size: 35px;
+  color: black;
+  padding-top: 24px;
+  padding-bottom: -1px;
 }
 
 #me {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 190px;
-	height: 190px;
-	border-radius: 150px;
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
 	padding-bottom: 10px;
 }
 
-#subtitle {
-	color: #FF634D;
-	font-size: 20px;
-	font-family: 'Gabriela', serif;
-	width: 100%;
+
+#buttons {
+	display: block;
 	text-align: center;
-	padding-top: 20px;
-	font-style: italic;
 }
+
+#mail {
+	padding: 5px;
+}
+
+#twitter {
+	padding: 5px;
+}
+
+#github {
+	padding: 5px;
+}
+
+#instagram {
+	padding: 5px;
+}
+
+#divider {
+	/*margin-left: 20%;*/
+	/*margin-right: 20%*/
+	position: relative;
+	margin-left: 28%;
+}
+
+#line {
+	height: 2.5px;
+	background: #BCF1ED;
+  width: 60%;
+}
+
 
 
