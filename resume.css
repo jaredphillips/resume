@@ -14,57 +14,86 @@ header {
 
 h1 {
 	text-align: center;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+	font-family: 'Sanchez', serif;
 	font-size: 35px;
   color: black;
   padding-top: 24px;
   padding-bottom: -1px;
 }
 
+
 #me {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70px;
-	height: 70px;
-	border-radius: 100px;
-	padding-bottom: 10px;
+	width: 170px;
+	height: 170px;
 }
 
 
 #buttons {
+	padding-top: 20px;
+	opacity: 0.5;
 	display: block;
 	text-align: center;
 }
 
 #mail {
-	padding: 5px;
+	padding: 25px;
+	transition: opacity .30s ease-in-out;
+}
+
+#mail:hover {
+  opacity: 0.7;
+
 }
 
 #twitter {
-	padding: 5px;
+	padding: 25px;
+	transition: opacity .30s ease-in-out;
+}
+
+#twitter:hover {
+	opacity: 0.7;
 }
 
 #github {
-	padding: 5px;
+	padding: 25px;
+	transition: opacity .30s ease-in-out;
+}
+
+#github:hover {
+	opacity: 0.7;
 }
 
 #instagram {
-	padding: 5px;
+	padding: 25px;
+	transition: opacity .30s ease-in-out;
+}
+
+#instagram:hover {
+	opacity: 0.7;
 }
 
 #divider {
-	/*margin-left: 20%;*/
-	/*margin-right: 20%*/
-	position: relative;
-	margin-left: 28%;
 }
 
-#line {
-	height: 2.5px;
-	background: #BCF1ED;
-  width: 60%;
+#line1 {
+	height: 0.9px;
+	background: FF634D;
+  width: 100%;
 }
+
+h3 {
+	text-align: center;	
+	font-family: 'Gabriela', serif;
+}
+
+footer {
+
+}
+
 
 
 
