@@ -34,46 +34,46 @@ h1 {
 
 #buttons {
 	padding-top: 20px;
-	opacity: 0.5;
+	opacity: 0.9;
 	display: block;
 	text-align: center;
 }
 
 #mail {
-	padding: 25px;
-	transition: opacity .30s ease-in-out;
+	padding: 30px;
+	transition: opacity .5s ease-in-out;
 }
 
 #mail:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 
 }
 
 #twitter {
-	padding: 25px;
-	transition: opacity .30s ease-in-out;
+	padding: 30px;
+	transition: opacity .5s ease-in-out;
 }
 
 #twitter:hover {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 #github {
-	padding: 25px;
-	transition: opacity .30s ease-in-out;
+	padding: 30px;
+	transition: opacity .5s ease-in-out;
 }
 
 #github:hover {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 #instagram {
-	padding: 25px;
-	transition: opacity .30s ease-in-out;
+	padding: 30px;
+	transition: opacity .5s ease-in-out;
 }
 
 #instagram:hover {
-	opacity: 0.7;
+	opacity: 0.6;
 }
 
 #divider {
