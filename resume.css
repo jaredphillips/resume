@@ -13,10 +13,10 @@ header {
 }
 
 h1 {
-	text-align: center;
-	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
-	font-family: 'Sanchez', serif;
-	font-size: 35px;
+  text-align: center;
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: 'Sanchez', serif;
+  font-size: 35px;
   color: black;
   padding-top: 24px;
   padding-bottom: -1px;
@@ -40,7 +40,7 @@ h1 {
 }
 
 #mail {
-	padding: 30px;
+	padding: 4em;
 	transition: opacity .5s ease-in-out;
 }
 
@@ -50,7 +50,7 @@ h1 {
 }
 
 #twitter {
-	padding: 30px;
+	padding: 4em;
 	transition: opacity .5s ease-in-out;
 }
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 #github {
-	padding: 30px;
+	padding: 4em;
 	transition: opacity .5s ease-in-out;
 }
 
@@ -68,7 +68,7 @@ h1 {
 }
 
 #instagram {
-	padding: 30px;
+	padding: 4em;
 	transition: opacity .5s ease-in-out;
 }
 
@@ -79,10 +79,10 @@ h1 {
 #divider {
 }
 
-#line1 {
+#line {
 	height: 0.9px;
-	background: FF634D;
-  width: 100%;
+	color: black;
+    width: 60%; 
 }
 
 h3 {
