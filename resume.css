@@ -34,55 +34,38 @@ h1 {
 
 #buttons {
 	padding-top: 20px;
-	opacity: 0.9;
 	display: block;
 	text-align: center;
 }
 
-#mail {
+
+#twitter, #mail, #github, #instagram {
 	padding: 4em;
 	transition: opacity .5s ease-in-out;
 }
 
 #mail:hover {
   opacity: 0.6;
-
-}
-
-#twitter {
-	padding: 4em;
-	transition: opacity .5s ease-in-out;
 }
 
 #twitter:hover {
 	opacity: 0.6;
 }
 
-#github {
-	padding: 4em;
-	transition: opacity .5s ease-in-out;
-}
 
 #github:hover {
 	opacity: 0.6;
 }
 
-#instagram {
-	padding: 4em;
-	transition: opacity .5s ease-in-out;
-}
 
 #instagram:hover {
 	opacity: 0.6;
 }
 
-#divider {
-}
-
 #line {
 	height: 0.9px;
 	color: black;
-    width: 60%; 
+  width: 60%; 
 }
 
 h3 {
@@ -90,10 +73,60 @@ h3 {
 	font-family: 'Gabriela', serif;
 }
 
-footer {
+#bottomline {
+	height: 0.9px;
+	color: black;
+  width: 60%; 
+}
+
+#past {
+	margin-left: 10%;
+	display: block;
+	text-align: left;
 
 }
 
+#future {
+	margin-right: 10%;
+	display: block;
+	text-align: right;
+}
 
+#container {
+	padding-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Snippet', sans-serif;
+}
 
+#left {
+	border-radius: 15px;
+	margin-left: 30%;
+	float: left;
+	text-align: center;
+
+}
+
+#right {
+	border-radius: 15px;
+	margin-right: 30%;
+	float: right;
+	text-align: center;
+	background-color: white;
+}
+
+#left:hover {
+  opacity: 0.9;
+  background-color: #C6FEFA;
+  transition: opacity .5s ease-in-out;
+}
+
+h2 {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+#text {
+
+}
 
